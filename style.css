@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    width: 100%;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-left: 30px;
+    height: 30px;
+}
+
+#logo:hover{
+    opacity: .8;
+}
+
+#menu ul {
+    padding-left: 45%;
+    display: inline; 
+    position: relative;
+    bottom: -55px;
+}
+
+#menu ul a  {
+   text-decoration: none;
+   font-family: sans-serif;
+   font-size: 15px;
+   font-weight: normal;
+   padding: 5px;
+}
+
+#menu ul a li {
+    margin-bottom: 5px;
+    color: rgb(44, 45, 46);
+    cursor: pointer;
+}
+
+#menu ul a li:hover {
+    color: dodgerblue;
+}
+
+#background {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+
+#background img {
+    width: 100%;
+    height: 750px;
+}
+
+p.center {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+p.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+p.centered2 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+p.centered3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+#about {
+    text-align: center;
+    font-family: sans-serif;
+    background: whitesmoke;
+}
+
+.heading1{
+    color: dodgerblue;
+    font-size: 50px;
+    font-weight: normal;
+    padding-top: 100px;
+}
+
+.head1 {
+    padding-top: 40px;
+    font-size: 20px; 
+}
+
+.para1{
+    padding-top: 30px;
+    line-height: 30px;
+    color: slategray;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+img.pic {
+    background: whitesmoke;
+    padding-top: 80px;
+    width: 100%;
+    height: 600px;
+}
+
+#services {
+    text-align: center;
+    font-family: sans-serif;
+    background: white;
+}
+
+.heading2 {
+    color: dodgerblue;
+    padding-top: 100px;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.head2 {
+    padding-top: 40px;
+    font-size: 20px; 
+}
+
+.para2 {
+    padding-top: 30px;
+    line-height: 30px;
+    color: slategray;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+img.pic2 {
+    background: white;
+    padding-top: 80px;
+    width: 100%;
+    height: 600px;
+}
+
+#careers {
+    font-family: sans-serif;
+    float: right;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    background: whitesmoke;
+}
+
+img.pic1 {
+    width: 40%;
+    height: 600px;
+    float: left;
+    margin-right: 30px;
+    box-shadow: -10px 10px black;
+
+}
+
+.heading3 {
+    color: dodgerblue;
+    font-weight: normal;
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+.para3 {
+    padding-top: 30px;
+    line-height: 35px;
+    font-size: 25px;
+    padding-left: 100px;
+}
+
+#get {
+    position: relative;
+    top: 100px;
+}
+
+.heading4 {
+    color: dodgerblue;
+    font-weight: normal;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding-left: 200px;
+    float: left;
+    position: relative;
+    top: 10px;
+}
+
+#form {
+    float: right;
+    padding-right: 90px;
+}
+
+#name, #email, #phone, #address, #subject, #textarea {
+    border:none;
+    border-bottom: 1px solid #000;
+}
+
+#name, #email, #phone, #address, #subject, #textarea {  
+    padding: 8px;
+    font-size: 16px;
+    margin: 12px;
+}
+
+#subject, #textarea {
+    width: 443px;
+}
+
+#textarea {
+    height: 60px;  
+    padding-bottom: 30px;
+}
+
+#submit {
+    width: 462px;
+    margin: 15px;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    background: black;
+    cursor: pointer;
+    border: none;
+}
+
+#name:hover, #email:hover, #phone:hover {
+    border: 1px solid black;
+}
+
+#address:hover, #subject:hover, #textarea:hover {
+    border: 1px solid black;
+}
+
+#submit:hover {
+    opacity: 0.5;
+}
+
+#subscribe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    right: 400px;
+    padding-top: 100px;
+}
+
+.sub {
+    margin: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: relative;
+    left: 80px;
+}
+
+#subs {
+    width: 400px;
+    padding: 8px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#sub{
+    border: 5px solid skyblue;
+}
+
+#submit1 {
+    width: 420px;
+    height: 35px;
+    padding: 10px;
+    margin-left: 8px;
+    border: none;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+#social, #footer {
+    padding-top: 40px;
+
+}
+
+ul li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    color: black;
+    position: relative;
+    right: 110px;
+}
+
+#footer p {
+    font-family: sans-serif;
+    position: relative;
+    right: 180px;
+}
